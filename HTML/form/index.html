@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+  </head>
+  <!-- Navigation Menu -->
+  <nav>
+    <ul>
+      <!--Menu List-->
+      <li>
+        <a href="../restaurant/index.html">Home</a>
+      </li>
+      <li>
+        <a href="../restaurant/dishes.html">Dishes</a>
+      </li>
+      <li>
+        <a href="#">Contact Us</a>
+      </li>
+      <li>
+        <a href="../form/index.html">Register</a>
+      </li>
+      <!--Menu List ENDS-->
+    </ul>
+  </nav>
+  <!-- Navigation Menu ENDS -->
+  <body>
+    <h1>Recopilacion de Datos</h1>
+    <main>
+      <table border="2" cellpadding="5" cellspacing="0">
+        <thead>
+          <th colspan="5">Informacion del Estudiante</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Nombre:</td>
+            <td colspan="3">
+              <input type="text" name="first_name" placeholder="e.g. Daniel">
+            </td>
+          </tr>
+          <tr>
+            <td>Apellido:</td>
+            <td colspan="5">
+              <input type="text" name="last_name" placeholder="e.g. Sura">
+            </td>
+          <tr>
+            <td>Telefono</td>
+            <td>
+              <input type="tel" name="phone">
+            </td>
+            <td>Telefono Alternativo</td>
+            <td>
+              <input type="tel" name="phone">
+            </td>
+          </tr>
+          <tr>
+            <td>Genero</td>
+            <td colspan="5">
+              <input type="radio" name="gender" id="gender">
+              <span>Masculino</span>
+              <input type="radio" name="gender" id="gender">
+              <span>Femenino</span>
+            </td>
+          </tr>
+          <tr>
+            <td>Correo Electronico</td>
+            <td colspan="5">
+              <input type="email" name="email" placeholder="business@business.com">
+            </td>
+          </tr>
+          <tr>
+            <td>Fecha de Ingreso</td>
+            <td>
+              <input type="date" name="date_registered" id="date_registered">
+            </td>
+            <td>Hora</td>
+            <td colspan="5">
+              <input type="time" name="time_registered" id="time_registered">
+            </td>
+          </tr>
+          <tr>
+            <td>Foto del Estudiante</td>
+            <td colspan="5">
+              <input type="file" name="file_upload" id="file_upload">
+            </td>
+          </tr>
+          <th colspan="5">
+            <h2>Informacion del Familiar</h2>
+          </th>
+          <tr>
+            <td>Nombre:</td>
+            <td colspan="7">
+              <input type="text" name="first_name" placeholder="e.g. Daniel">
+            </td>
+          </tr>
+          <tr>
+            <td>Apellido:</td>
+            <td colspan="8">
+              <input type="text" name="last_name" placeholder="e.g. Sura">
+            </td>
+          </tr>
+          <tr>
+            <td>Curso</td>
+            <td colspan="8">
+              <select name="curso" id="curso">
+                <option>Curso de Programacion</option>
+                <option>Curso de Ingles</option>
+                <option>Curso de CSS</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>Direccion:</td>
+            <td colspan="8">
+              <textarea name="address" id="address" cols="25" rows="5"></textarea>
+            </td>
+          </tr>
+          <tr>
+            <td>Telefono</td>
+            <td>
+              <input type="tel" name="phone">
+            </td>
+            <td>Telefono Alternativo</td>
+            <td>
+              <input type="tel" name="phone">
+            </td>
+          </tr>
+          <tr>
+            <td>Genero</td>
+            <td colspan="8">
+              <input type="radio" name="gender" id="gender">
+              <span>Masculino</span>
+              <input type="radio" name="gender" id="gender">
+              <span>Femenino</span>
+            </td>
+          </tr>
+          <tr>
+            <td>Correo Electronico</td>
+            <td colspan="8">
+              <input type="email" name="email" placeholder="business@business.com">
+            </td>
+          </tr>
+          <tr>
+            <td colspan="8">
+              <input type="checkbox" name="check" id="check">
+              <span>Acepto los terminos y condiciones</span>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="8">
+              <button type="submit">Registrar Datos</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </main>
+  </body>
+</html>
